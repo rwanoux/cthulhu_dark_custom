@@ -1,7 +1,7 @@
 {
   "id": "cthulhu_dark_custom",
   "title": "cthulhu_dark_custom",
-  "description": "",
+  "description": "module qui ajoute des points de santé aux PJs",
   "version": "0.0.1",
   "compatibility": {
     "minimum": "11",
@@ -34,7 +34,7 @@
     "/css/style.css"
   ],
   "socket": true,
-  "url": "https://bitbucket.org/black-book-editions/rolenplay-core",
-  "manifest": "https://bitbucket.org/black-book-editions/rolenplay-core/downloads/module.json",
-  "download": "https://bitbucket.org/black-book-editions/rolenplay-core/downloads/module.zip"
+  "url": "https://github.com/rwanoux/cthulhu_dark_custom",
+  "manifest": "https://raw.githubusercontent.com/rwanoux/cthulhu_dark_custom/refs/heads/main/module.json",
+  "download": "https://github.com/rwanoux/cthulhu_dark_custom/archive/refs/heads/main.zip"
 }

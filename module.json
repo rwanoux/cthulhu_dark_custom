@@ -1,0 +1,40 @@
+{
+  "id": "cthulhu_dark_custom",
+  "title": "cthulhu_dark_custom",
+  "description": "",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12.330",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Rwan",
+      "discord": "rwanoux"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "cthulhudark",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.2.1",
+          "verified": "1.2.11"
+        }
+      }
+    ]
+  },
+  "conflicts": [],
+  "esmodules": [
+    "/scripts/module.js"
+  ],
+  "styles": [
+    "/css/style.css"
+  ],
+  "socket": true,
+  "url": "https://bitbucket.org/black-book-editions/rolenplay-core",
+  "manifest": "https://bitbucket.org/black-book-editions/rolenplay-core/downloads/module.json",
+  "download": "https://bitbucket.org/black-book-editions/rolenplay-core/downloads/module.zip"
+}

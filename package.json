@@ -1,0 +1,21 @@
+{
+  "name": "cthulhu_dark_custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "launch Foundry12": "cd C:/Program Files/Foundry Virtual Tabletop_V12/resources/app && node main.js",
+    "watch": "gulp watch",
+    "buildStyle": "gulp buildStyles"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  }
+}

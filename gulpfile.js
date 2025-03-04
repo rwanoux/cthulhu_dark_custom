@@ -5,7 +5,7 @@ const sass = require('gulp-sass')(require('sass'));
 var browserSync = require('browser-sync').create();
 
 function buildStyles() {
-    return gulp.src('./scss/rolenplay.scss')
+    return gulp.src('./scss/style.scss')
         .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
         .pipe(gulp.dest('./css'))
         .pipe(browserSync.stream());

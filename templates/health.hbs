@@ -1,0 +1,15 @@
+<div class="form-group cthulhu-dark-custom">
+    {{log actor}}
+    <label for="system.health.value">Santé</label>
+    {{#repeat actor.system.health.max  1 "index" }}
+        <input
+            class="{{#ifgt actor.system.health.value @index}} checked {{/ifgt}}"
+            type="radio"
+            name="system.health.value"
+            value="{{ @index }}"
+            {{#ife actor.system.health.value @index}}
+            checked
+            {{/ife}}
+        >
+    {{/repeat}}
+</div>

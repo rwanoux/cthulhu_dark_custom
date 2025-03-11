@@ -35,7 +35,7 @@ Hooks.once("init", async function () {
 // for existing actors
 Hooks.on("renderActorSheet", async (sheet, data, options, userId) => {
     if (sheet.actor.type === "character" && !sheet.actor.system.health) {
-        actor.update({
+        sheet.actor.update({
             "system.health": {
                 value: 10,
                 min: 0,
